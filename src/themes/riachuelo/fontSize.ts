@@ -1,4 +1,4 @@
-import { ModelOfFontSizeTheme } from "@src/model";
+import { ModelOfFontSizeTheme } from "../../model";
 
 
 export const fontSize:ModelOfFontSizeTheme = {

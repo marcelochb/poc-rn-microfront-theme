@@ -1,4 +1,4 @@
-import { ModelOfFontFamilyTheme } from "@src/model";
+import { ModelOfFontFamilyTheme } from "../../model";
 
 export const fontFamily:ModelOfFontFamilyTheme = {
   regular: 'Roboto-Regular',

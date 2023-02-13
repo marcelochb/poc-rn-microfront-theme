@@ -1,4 +1,4 @@
-import { ModelOfColorTheme } from "@src/model"
+import { ModelOfColorTheme } from "../../model"
 
 const baseColors = {
   highlight: '#D52817',

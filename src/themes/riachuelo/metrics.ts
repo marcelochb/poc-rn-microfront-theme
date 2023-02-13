@@ -1,5 +1,5 @@
-import { ModelOfMetricsTheme } from '@src/model';
 import { Dimensions } from 'react-native';
+import { ModelOfMetricsTheme } from '../../model';
 
 const { width, height } = Dimensions.get('window');
 
