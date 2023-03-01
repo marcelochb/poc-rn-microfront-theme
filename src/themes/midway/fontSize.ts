@@ -1,7 +1,7 @@
-import { ModelOfFontSizeTheme } from "../../model";
+import { IFontSizeTheme } from "@poc/interfaces";
 
 
-export const fontSize:ModelOfFontSizeTheme = {
+export const fontSize:IFontSizeTheme = {
   smallest: 12,
   small: 14,
   base: 18,

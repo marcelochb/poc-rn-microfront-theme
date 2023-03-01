@@ -1,9 +1,9 @@
+import { IMetricsTheme } from '@poc/interfaces';
 import { Dimensions } from 'react-native';
-import { ModelOfMetricsTheme } from '../../model';
 
 const { width, height } = Dimensions.get('window');
 
-export const metrics:ModelOfMetricsTheme = {
+export const metrics:IMetricsTheme = {
   smallest: 3,
   small: 5,
   base: 10,

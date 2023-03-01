@@ -1,6 +1,6 @@
-import { ModelOfFontFamilyTheme } from "../../model";
+import { IFontFamilyTheme } from "@poc/interfaces";
 
-export const fontFamily:ModelOfFontFamilyTheme = {
+export const fontFamily:IFontFamilyTheme = {
   regular: 'Roboto-Regular',
   bold: 'Roboto-Bold',
   light: 'Roboto-Light',

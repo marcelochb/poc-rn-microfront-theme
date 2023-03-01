@@ -1,4 +1,4 @@
-import { ModelOfColorTheme } from "../../model"
+import { IColorTheme } from "@poc/interfaces"
 
 const baseColors = {
   highlight: '#D52817',
@@ -13,7 +13,7 @@ const baseColors = {
   green: '#11ff00'
 }
 
-export const colors:ModelOfColorTheme = {
+export const colors:IColorTheme = {
   background: baseColors.white,
   backgroundSecundary: baseColors.grey,
   backgroundModal: baseColors.blackOpacity,
