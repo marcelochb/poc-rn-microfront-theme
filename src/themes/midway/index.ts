@@ -2,9 +2,9 @@ import {metrics} from './metrics';
 import {fontSize} from './fontSize';
 import {colors} from './colors';
 import {fontFamily} from './fontFamily';
-import {ModelOfTheme} from '../../model';
+import {ITheme} from '../../model';
 
-export const Midway: ModelOfTheme = {
+export const Midway: ITheme = {
   metrics,
   fontSize,
   colors,

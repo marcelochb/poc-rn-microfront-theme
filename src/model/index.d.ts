@@ -1,4 +1,4 @@
-type ModelOfColorTheme = {
+interface IColorTheme {
   background: string;
   backgroundSecundary: string;
   backgroundModal: string;
@@ -15,14 +15,14 @@ type ModelOfColorTheme = {
   success: string;
 }
 
-type ModelOfFontFamilyTheme = {
+interface IFontFamilyTheme {
   regular: string;
   bold: string;
   light: string;
   italic: string;
 }
 
-type ModelOfFontSizeTheme = {
+interface IFontSizeTheme {
   smallest: number;
   small: number;
   base: number;
@@ -31,7 +31,7 @@ type ModelOfFontSizeTheme = {
   extraLagest: number;
 }
 
-type ModelOfMetricsTheme = {
+interface IMetricsTheme {
   smallest: number;
   small: number;
   base: number;
@@ -55,12 +55,12 @@ type ModelOfMetricsTheme = {
   avatarSize: number;
 }
 
-type ModelOfTheme = {
-  metrics: ModelOfMetricsTheme,
-  fontSize: ModelOfFontSizeTheme,
-  colors: ModelOfColorTheme,
-  fontFamily: ModelOfFontFamilyTheme,
+interface ITheme {
+  metrics: IMetricsTheme,
+  fontSize: IFontSizeTheme,
+  colors: IColorTheme,
+  fontFamily: IFontFamilyTheme,
 }
 
-export const Midway:ModelOfTheme;
-export const Riachuelo:ModelOfTheme;
+export const Midway:ITheme;
+export const Riachuelo:ITheme;
