@@ -5,6 +5,7 @@ import {fontFamily} from './fontFamily';
 import { ITheme } from '@poc/interfaces';
 
 export const Midway: ITheme = {
+  name: 'Midway',
   metrics,
   fontSize,
   colors,

@@ -2,12 +2,12 @@ import { IFontSizeTheme } from "@poc/interfaces";
 
 
 export const fontSize:IFontSizeTheme = {
-  smallest: 8,
-  small: 10,
-  base: 14,
-  large: 18,
-  largest: 26,
-  extraLagest: 36,
+  smallest: 12,
+  small: 14,
+  base: 18,
+  large: 22,
+  largest: 30,
+  extraLagest: 40,
 }
 
 

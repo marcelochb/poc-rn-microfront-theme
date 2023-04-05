@@ -5,13 +5,13 @@ const { width, height } = Dimensions.get('window');
 
 export const metrics:IMetricsTheme = {
   smallest: 3,
-  small: 4,
-  base: 8,
-  large: 16,
-  largest: 32,
+  small: 5,
+  base: 10,
+  large: 20,
+  largest: 40,
   inputHeight: '30%',
   inputWidth: '40%',
-  buttonHeight: 50,
+  buttonHeight: 60,
   buttonWidth: '100%',
   buttonHeightSmall: '15%',
   buttonWidthSmall: '20%',
