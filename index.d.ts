@@ -1,2 +1,1 @@
-export * as ThemeBase from './src/model';
-export {ITheme} from './src/model';
+export * as ThemeBase from './src/interface';
